@@ -13,6 +13,7 @@ Patch0:    ibus-table-extraphrase-0.1.2.20090102-noarch.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel
 BuildRequires: ibus-table-devel >= 0.1.2
+Provides:	%{name}-devel = %{version}-%{release}
 BuildArch:	noarch
 Requires:	ibus-table >= 0.1.2
 
