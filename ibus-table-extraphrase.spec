@@ -1,4 +1,4 @@
-%define	version 1.1.0.20090219
+%define	version 1.1.0.20090406
 %define	release %mkrel 1
 
 Name:      ibus-table-extraphrase
@@ -31,8 +31,7 @@ ibus-table-createdb to generate IME database.
 %patch0 -p0
 
 %build
-%configure2_5x \
-	--disable-static
+%configure2_5x
 %make
 
 %install
