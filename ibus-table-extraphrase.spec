@@ -1,4 +1,4 @@
-%define	version 1.1.0.20090415
+%define	version 1.2.0.20100305
 %define	release %mkrel 1
 
 Name:      ibus-table-extraphrase
