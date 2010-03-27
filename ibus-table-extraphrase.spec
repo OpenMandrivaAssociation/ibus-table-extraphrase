@@ -1,5 +1,5 @@
 %define	version 1.2.0.20100305
-%define	release %mkrel 1
+%define	release %mkrel 2
 
 Name:      ibus-table-extraphrase
 Summary:   Chinese extra phrases for ibus-table based IME
@@ -12,10 +12,10 @@ Source0:   http://ibus.googlecode.com/files/%{name}-%{version}.tar.gz
 Patch0:    ibus-table-extraphrase-0.1.2.20090102-noarch.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel
-BuildRequires: ibus-table-devel >= 1.1.0
+BuildRequires: ibus-table-devel >= 1.2.0
 Provides:	%{name}-devel = %{version}-%{release}
 BuildArch:	noarch
-Requires:	ibus-table >= 1.1.0
+Requires:	ibus-table >= 1.2.0
 
 %description
 This package provide Chinese extra phrases for ibus-table based IME,
