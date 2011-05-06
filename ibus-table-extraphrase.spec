@@ -1,5 +1,5 @@
 %define	version 1.2.0.20100305
-%define	release %mkrel 4
+%define	release %mkrel 5
 
 Name:      ibus-table-extraphrase
 Summary:   Chinese extra phrases for ibus-table based IME
