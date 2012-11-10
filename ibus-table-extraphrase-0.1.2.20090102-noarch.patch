@@ -1,0 +1,31 @@
+--- ibus-table-extraphrase.pc.in~	2009-01-02 16:53:34.000000000 +0100
++++ ibus-table-extraphrase.pc.in	2009-01-04 16:30:42.000000000 +0100
+@@ -1,6 +1,5 @@
+ prefix=@prefix@
+ exec_prefix=@exec_prefix@
+-libdir=@libdir@
+ datarootdir=@datarootdir@
+ datadir=@datadir@
+ 
+--- Makefile.am~	2009-01-02 16:53:33.000000000 +0100
++++ Makefile.am	2009-01-04 16:31:25.000000000 +0100
+@@ -29,7 +29,7 @@
+ 	ibus-table-extraphrase.pc \
+ 	$(NULL)
+ 
+-pkgconfigdir = $(libdir)/pkgconfig
++pkgconfigdir = $(datadir)/pkgconfig
+ 
+ EXTRA_DIST = \
+ 	autogen.sh \
+--- Makefile.in~	2009-01-02 16:53:49.000000000 +0100
++++ Makefile.in	2009-01-04 16:32:10.000000000 +0100
+@@ -181,7 +181,7 @@
+ 	ibus-table-extraphrase.pc \
+ 	$(NULL)
+ 
+-pkgconfigdir = $(libdir)/pkgconfig
++pkgconfigdir = $(datadir)/pkgconfig
+ EXTRA_DIST = \
+ 	autogen.sh \
+ 	$(NULL)
