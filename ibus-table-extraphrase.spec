@@ -4,7 +4,7 @@ Version:	1.3.9.20110826
 Release:	2
 License:	GPLv2+
 Group:		System/Internationalization
-Url:		http://code.google.com/p/ibus/
+Url:		https://code.google.com/p/ibus/
 Source0:	http://ibus.googlecode.com/files/%{name}-%{version}.tar.gz
 Source10:	%{name}.rpmlintrc
 Patch0:		ibus-table-extraphrase-0.1.2.20090102-noarch.patch
